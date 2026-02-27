@@ -2,9 +2,9 @@
 
 ## Author
 
-* **Name**: ________________________________
-* **Register Number**: _____________________
-* **Date of Submission**: __________________
+* **Name**: KUKKADAPU CHARAN TEJ
+* **Register Number**: 212224040167
+* **Date of Submission**: 27-02-2026
 
 ---
 
@@ -87,33 +87,49 @@ Create a simple HTML page and verify that it can be accessed from a web browser 
 
 (Write the steps you followed in your own words)
 
-1. ---
-2. ---
-3. ---
-4. ---
-5. ---
+1.Create a VPC with a CIDR block (e.g., 10.0.0.0/16) and a public subnet (e.g., 10.0.1.0/24) with auto-assign public IP enabled.
+
+2.Create and attach an Internet Gateway to the VPC to enable internet connectivity.
+
+3.Configure a Route Table with a default route (0.0.0.0/0) pointing to the Internet Gateway and associate it with the public subnet.
+
+4.Create a Security Group allowing inbound SSH (port 22) and HTTP (port 80), then launch an EC2 instance in the public subnet.
+
+5.Install and start Apache on the EC2 instance, create a simple HTML page, and access it using the instance’s public IP to verify connectivity.
 
 ---
 
 ## Output Screenshots (Attach 3)
 
+<img width="1919" height="898" alt="Screenshot 2026-02-27 083107" src="https://github.com/user-attachments/assets/144f08be-58ab-43ca-82f5-ee88d6abecf4" />
+
+<img width="1903" height="814" alt="Screenshot 2026-02-27 083330" src="https://github.com/user-attachments/assets/93e5d7ef-1895-4b00-883c-5b5be8c69e7a" />
+
+
+
+
 ### Screenshot 1: VPC and Subnet Details
 
 (Insert Screenshot Here)
+<img width="1919" height="898" alt="Screenshot 2026-02-27 083107" src="https://github.com/user-attachments/assets/144f08be-58ab-43ca-82f5-ee88d6abecf4" />
 
 ---
+<img width="1918" height="863" alt="Screenshot 2026-02-14 114753" src="https://github.com/user-attachments/assets/b89e870a-92ef-4f58-b99b-145d317fcf11" />
 
 ### Screenshot 2: EC2 Instance Running
 
 (Insert Screenshot Here)
 
 ---
+<img width="1919" height="872" alt="Screenshot 2026-02-14 115633" src="https://github.com/user-attachments/assets/10340a43-7a94-4d9f-95cb-0a90521396fd" />
 
 ### Screenshot 3: Web Server Output in Browser
 
 (Insert Screenshot Here)
+<img width="1919" height="855" alt="Screenshot 2026-02-26 105130" src="https://github.com/user-attachments/assets/04c2a8a9-e0fe-4839-82c6-6c37f706b59d" />
 
----
+---<img width="1919" height="897" alt="Screenshot 2026-02-27 082318" src="https://github.com/user-attachments/assets/d746ce65-7aec-4167-a6c9-cc498d7601ef" />
+
 
 ## Result 
 
