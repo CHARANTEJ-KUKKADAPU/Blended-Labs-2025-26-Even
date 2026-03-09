@@ -2,9 +2,9 @@
 
 ## Author
 
-* **Name**: ________________________________
-* **Register Number**: _____________________
-* **Date of Submission**: __________________
+* **Name**: KUKKADAPU CHARAN TEJ
+* **Register Number**: 212224040167
+* **Date of Submission**:  27-02-26
 
 ---
 
@@ -96,35 +96,37 @@ Terminate the EC2 instance after completing the experiment to avoid unnecessary 
 
 ## Workflow (Student Explanation)
 
-(Write the steps you followed in your own words)
+1.Launch an Amazon EC2 instance named Web Server in the US East (N. Virginia) region using Amazon Linux 2023 AMI and t2.micro instance type.
 
-1. ---
-2. ---
-3. ---
-4. ---
-5. ---
+2.Configure networking by selecting Lab VPC, creating a Web Server security group, and initially removing all inbound rules.
 
----
+3.Enable termination protection, add a User Data script to install and start the Apache (httpd) web server, and launch the instance.
+
+4.Monitor the instance using Status checks, Monitoring (CloudWatch metrics), System Log, and Instance Screenshot in the EC2 console.
+
+5.Allow HTTP access by adding an inbound rule for port 80, then stop the instance to resize it to t2.small and increase the EBS volume from 8 GiB to 10 GiB, and start the instance again.
 
 ## Output Screenshots (Attach 3)
 
+<img width="1919" height="927" alt="Screenshot 2026-02-27 084711" src="https://github.com/user-attachments/assets/c53a1714-33fb-4f6b-8e7f-a13edbca95ce" />
+<img width="1919" height="975" alt="Screenshot 2026-02-27 083347" src="https://github.com/user-attachments/assets/9dc8e713-4f36-42b7-9031-dcf0a03870da" />
+
+<img width="1919" height="878" alt="Screenshot 2026-02-27 084307" src="https://github.com/user-attachments/assets/19783a53-70c4-4b05-963a-64b358a04db8" />
+
+
 ### Screenshot 1: EC2 Dashboard / Instance List
 
-(Insert Screenshot Here)
+<img width="1919" height="898" alt="Screenshot 2026-02-27 083107" src="https://github.com/user-attachments/assets/0a194b72-f9b8-4ecc-b574-1a6ad8d6430a" />
 
----
 
 ### Screenshot 2: SSH Connection to Instance
+<img width="1919" height="975" alt="Screenshot 2026-02-27 083347" src="https://github.com/user-attachments/assets/60d4b1c4-dec4-4fd0-8df2-f2a508a4f5ce" />
 
-(Insert Screenshot Here)
-
----
 
 ### Screenshot 3: Instance Monitoring / Status
 
-(Insert Screenshot Here)
+<img width="1919" height="927" alt="Screenshot 2026-02-27 084711" src="https://github.com/user-attachments/assets/74b9541e-6d65-4408-a758-0c031c42182d" />
 
----
 
 ## Result 
 
