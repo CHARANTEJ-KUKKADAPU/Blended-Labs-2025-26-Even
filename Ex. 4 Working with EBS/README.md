@@ -2,9 +2,9 @@
 
 ## Author
 
-* **Name**: ________________________________
-* **Register Number**: _____________________
-* **Date of Submission**: __________________
+* **Name**: KUKKADAPU CHARAN TEJ
+* **Register Number**: 212224040167
+* **Date of Submission**: 13-03-26
 
 ---
 
@@ -78,13 +78,15 @@ Reboot the EC2 instance and verify that the data stored in the EBS volume is sti
 
 ## Workflow (Student Explanation)
 
-(Write the steps you followed in your own words)
+1.Explored Amazon EBS in the EC2 dashboard and reviewed different volume types like gp3, Provisioned IOPS SSD, Throughput Optimized HDD, and Cold HDD.
 
-1. ---
-2. ---
-3. ---
-4. ---
-5. ---
+2.Created a new EBS volume with the required size in the same Availability Zone as the EC2 instance.
+
+3.Attached the created EBS volume to the running EC2 instance as an additional block device.
+
+4.Connected to the EC2 instance using SSH, formatted the volume with the ext4 file system, and mounted it to a directory.
+
+5.Stored sample files in the mounted volume and verified that the data remained available after rebooting the EC2 instance.
 
 ---
 
@@ -92,19 +94,22 @@ Reboot the EC2 instance and verify that the data stored in the EBS volume is sti
 
 ### Screenshot 1: EBS Volume Created
 
-(Insert Screenshot Here)
+<img width="1919" height="974" alt="Screenshot 2026-03-13 150316" src="https://github.com/user-attachments/assets/a1864a42-0f27-4d88-a0d3-2006327adf49" />
+
 
 ---
 
 ### Screenshot 2: EBS Volume Attached to EC2
 
-(Insert Screenshot Here)
+<img width="1919" height="971" alt="Screenshot 2026-03-13 150522" src="https://github.com/user-attachments/assets/a4597946-5072-47c4-affa-9851c0eb9ac4" />
+
 
 ---
 
 ### Screenshot 3: Mounted Volume with Data
 
-(Insert Screenshot Here)
+<img width="1919" height="1021" alt="Screenshot 2026-03-13 150903" src="https://github.com/user-attachments/assets/6f6d5dd6-ca9e-4db2-b066-802569cc8164" />
+
 
 ---
 
