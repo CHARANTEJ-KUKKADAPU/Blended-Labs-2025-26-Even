@@ -2,9 +2,9 @@
 
 ## Author
 
-* **Name**: ________________________________
-* **Register Number**: _____________________
-* **Date of Submission**: __________________
+* **Name**: KUKKADAPU CHARAN TEJ
+* **Register Number**: 212224040167
+* **Date of Submission**:13-03-26
 
 ---
 
@@ -82,13 +82,20 @@ Test the database server by connecting to it locally or remotely and performing 
 
 ## Workflow (Student Explanation)
 
-(Write the steps you followed in your own words)
+1.First, a security group named DB Security Group was created to allow the web server to connect to the database using port 3306 (MySQL).
 
-1. ---
-2. ---
-3. ---
-4. ---
-5. ---
+
+2.A DB Subnet Group was created with subnets from two Availability Zones to allow the database to run in a Multi-AZ environment for high availability.
+
+
+3.A MySQL RDS instance named lab-db was created with the database name lab, username main, and password lab-password.
+
+
+4.The database was associated with the DB Security Group and the Lab VPC so that the web server can securely connect to the database.
+
+
+5.The web application running on the EC2 server was opened using its IP address, and the RDS endpoint, database name, username, and password were entered to interact with the database.
+
 
 ---
 
@@ -96,19 +103,20 @@ Test the database server by connecting to it locally or remotely and performing 
 
 ### Screenshot 1: EC2 Instance for Database Server
 
-(Insert Screenshot Here)
+<img width="1919" height="1018" alt="Screenshot 2026-03-13 221124" src="https://github.com/user-attachments/assets/8186c2ef-ebd4-4374-a8bc-e82493ae5925" />
 
----
 
 ### Screenshot 2: Database Service Running
 
-(Insert Screenshot Here)
+<img width="1919" height="1016" alt="Screenshot 2026-03-13 214715" src="https://github.com/user-attachments/assets/bcecbe97-c946-40d5-83c9-343af8e043a0" />
+
 
 ---
 
 ### Screenshot 3: Sample Database and Table
 
-(Insert Screenshot Here)
+<img width="1919" height="1036" alt="Screenshot 2026-03-13 223348" src="https://github.com/user-attachments/assets/8be772b7-dc1d-45a7-8e5c-48a6fb4fe6ee" />
+
 
 ---
 
